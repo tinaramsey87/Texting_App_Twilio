@@ -1,1 +1,5 @@
-<li><%= link_to friend.name, admirer_friend_path(current_admirer, friend) %></li>
+<li><%= friend.name %>
+  <ul id="phone">
+    <li>Phone: <%= friend.phone %></li>
+  </ul>
+</li>
